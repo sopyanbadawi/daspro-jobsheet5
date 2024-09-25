@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Siakad04 {
     public static void main(String[] args) {
         
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
 
         String nama, nim;
         String kelas;
         byte absen;
         double nilaiKuis, nilaiTugas, nilaiUjian, nilaiAkhir;
-
+ 
         System.out.print("Masukkan nama: ");
         nama = sc.nextLine();
         System.out.print("Masukkan NIM: ");
@@ -58,7 +58,5 @@ public class Siakad04 {
             System.out.println("Kualifikasi: Gagal");
         }
 
-        
-        
     }
 }

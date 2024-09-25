@@ -12,16 +12,16 @@ public class Latihan04 {
         }
 
             if (usia <= 12) {
-                System.out.println("Anda termasuk kategori Anak");
+            System.out.println("Anda termasuk kategori Anak ");
             }
             else if (usia > 12 && usia <= 19) {
-                System.out.println("Anda termasuk kategori Remaja");
+            System.out.println("Anda termasuk kategori Remaja ");
             }
             else if (usia > 19 && usia <= 64) {
-                System.out.println("Anda termasuk kategori Dewasa");
+            System.out.println("Anda termasuk kategori Dewasa ");
             }
             else {
-                System.out.println("Anda termasuk kategori Lansia");
+            System.out.println("Anda termasuk kategori Lansia ");
         }
     }
 }
